@@ -1,10 +1,10 @@
 from pyrogram.types import InlineKeyboardButton
 from creds import cred
 
-welcome = "\n🔥 Give me the subtitle file you want to translate.\n\n🏵️ Join & ❤️ support @PF_HW\n\n🏵️ Support Group @Hcf_binge"
+welcome = "\n🔥 Give me the subtitle file you want to translate.\n\n🏵️ Join & ❤️ support @PF_HW\n\n🏵️ Tv/Web series @PF_TV"
 about = (
-    "🎀 CHANNEL : [PF HW](t.me/PF_HW)\n🦊 Bot Dev: [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_wolf)\n⚡️ Language: ["
-    "Python3](https://python.org)\n📦 Library : [Pyrogram](https://docs.pyrogram.org/) \n💡Server  : [Heroku]("
+    "🍎 Channel : [PF HW](t.me/PF_HW)\n👨‍💻 Creater: [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_wolf)\n⚡️ Language: ["
+    "Python3](https://python.org)\n📦 Library : [Pyrogram](https://docs.pyrogram.org/) \n💠 Server  : [Heroku]("
     "https://herokuapp.com/) "
 )
 help_text = (
