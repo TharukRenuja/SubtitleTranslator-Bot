@@ -1,9 +1,9 @@
 from pyrogram.types import InlineKeyboardButton
 from creds import cred
 
-welcome = "`Give me the subtitle file you want to translate..`"
+welcome = "Give me the subtitle file you want to translate..\n POWERED BY @PF_HW"
 about = (
-    "`CHANNEL` : [HOLLYWOOD MOVIES](t.me/PF_HW)\n`Creator :` [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_nero)\n`Language:` ["
+    "`CHANNEL` : [HOLLYWOOD MOVIES](t.me/PF_HW)\n`Creator :` [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_wolf)\n`Language:` ["
     "Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku]("
     "https://herokuapp.com/) "
 )
@@ -17,7 +17,7 @@ eta_text = (
     "**File name :** `{}`\n**Done** `{}` **of** `{}`\n**Percentage:** {}%\n**Speed:** {} lines/sec\n**ETA:** {}\n[{"
     "}{}] "
 )
-caption = f"Translated by @PF_HW"
+caption = f"🥺 Please join  @PF_HW"
 empty = "`You need to send a subtitle(srt) file inorder to translate it`"
 mmtypes = [
     "text/plain",
