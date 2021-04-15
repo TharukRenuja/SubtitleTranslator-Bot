@@ -3,8 +3,8 @@ from creds import cred
 
 welcome = "\n🔥 Give me the subtitle file you want to translate.\n\n🏵️ Join & ❤️ support @PF_HW\n\n🏵️ Support Group @Hcf_binge"
 about = (
-    "`CHANNEL` : [HOLLYWOOD MOVIES](t.me/PF_HW)\n`Creator :` [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_wolf)\n`Language:` ["
-    "Python3](https://python.org)\n`Library :` [Pyrogram](https://docs.pyrogram.org/) \n`Server  :` [Heroku]("
+    "🎀 CHANNEL : [PF HW](t.me/PF_HW)\n🦊 Bot Dev: [ ፕ๏χɪϲ ɯ๏ʅϝ ](t.me/Ab_wolf)\n⚡️ Language: ["
+    "Python3](https://python.org)\n📦 Library : [Pyrogram](https://docs.pyrogram.org/) \n💡Server  : [Heroku]("
     "https://herokuapp.com/) "
 )
 help_text = (
@@ -18,7 +18,7 @@ eta_text = (
     "}{}] "
 )
 caption = f"🥺 Please join  @PF_HW"
-empty = "`You need to send a subtitle(srt) file inorder to translate it`"
+empty = "🤔 You need to send a subtitle (srt) file inorder to translate it "
 mmtypes = [
     "text/plain",
     "application/x-subrip",
