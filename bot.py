@@ -51,8 +51,8 @@ def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About", callback_data="about"),
-                    InlineKeyboardButton("Help", url="https://t.me/PF_HW"),
+                    InlineKeyboardButton("👨‍💻 About 👨‍💻", callback_data="about"),
+                    InlineKeyboardButton("🍒 Channel 🍒", url="https://t.me/PF_HW"),
                 ]
             ]
         ),
