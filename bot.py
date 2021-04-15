@@ -47,7 +47,7 @@ app = Client(
 def start(client, message):
     client.send_message(
         chat_id=message.chat.id,
-        text=f"`Hi` **{message.from_user.first_name}**\n{welcome}",
+        text=f"👋 Hi **{message.from_user.first_name}**\n{welcome}",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -127,7 +127,7 @@ def data(client, callback_query):
             text=about,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Give Feedback", url="t.me/ab_nero")]]
+                [[InlineKeyboardButton("📬 Give Feedback 📬", url="t.me/ab_nero")]]
             ),
         )
     elif rslt == "close":
@@ -136,7 +136,7 @@ def data(client, callback_query):
         callback_query.message.edit(
             text=help_text,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("close", callback_data="close")]]
+                [[InlineKeyboardButton("close", callback_data="♻️ CLOSE ♻️")]]
             ),
         )
     else:
