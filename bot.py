@@ -52,7 +52,7 @@ def start(client, message):
             [
                 [
                     InlineKeyboardButton("About", callback_data="about"),
-                    InlineKeyboardButton("Help", callback_data="help"),
+                    InlineKeyboardButton("Help", url="https://t.me/PF_HW"),
                 ]
             ]
         ),
@@ -72,7 +72,7 @@ def abouts(client, message):
         text=about,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Give Feedback", url="t.me/agentnova")]]
+            [[InlineKeyboardButton("Give Feedback", url="t.me/ab_nero")]]
         ),
     )
 
@@ -127,7 +127,7 @@ def data(client, callback_query):
             text=about,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Give Feedback", url="t.me/agentnova")]]
+                [[InlineKeyboardButton("Give Feedback", url="t.me/ab_nero")]]
             ),
         )
     elif rslt == "close":
